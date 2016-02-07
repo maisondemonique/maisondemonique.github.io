@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+    	
+        <!-- Html Page Specific -->        
+        <meta charset="utf-8">
+        <title>Your Page Title Here</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        
+        <!-- Mobile Specific -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="css/font-awesome.css" type="text/css"/>
+        <link rel="stylesheet" href="./css/jquery.fancybox.css" type="text/css"/>
+        <link rel="stylesheet" href="./css/jquery.ketchup.css" type="text/css"/>
+        
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        
+        <!-- JavaScript -->
+        <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox-1.2.1.pack.js"></script>
+        <script type="text/javascript" src="./js/jquery.carouFredSel-6.2.0.js"></script>
+        <script src="./js/custom.js"></script>
+        <script src="./js/sliders_setup.js"></script>
+        <script src="./js/jquery.ketchup.all.min.js"></script>
+        
+        <!-- Placeholder script for non-supported browsers by Mathias -->
+        <script src="./js/jquery.placeholder.js"></script>
+        
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+        
+    </head>
+    <body>
+        
+        <div id="wrap">
+        
+<!-- HEADER LOGIN BEGIN -->   
+     
+            <header id="header_with_login" class="header">
+                <div class="center">
+                	<!-- Login box -->
+                    <div class="login_box">
+                        <form action="javascript:void(0)" class="login_form" novalidate>
+                            <div>
+                                <input type="text" placeholder="Screenname" />
+                                <input type="password" placeholder="Password" />
+                                <input type="submit" value="GO!" class="btn_grey" />
+                            </div>   
+                        </form>
+                        <a href="#" class="login_link"><span class="fa fa-caret-down"></span><span class="fa fa-caret-up"></span>Login</a>
+                    </div>
+                    <a href="#" class="logo" title="Entry - Clear landing page, that will help sell"></a>
+                    <p class="slogan">Your Company slogan here</p>
+                </div>
+            </header>
+            
+ <!-- HEADER LOGIN END -->
+ <!-- HEADER SOCIAL BEGIN -->           
+            
+            <header id="header_with_social" class="header">
+                <div class="center">
+                    <a href="#" class="logo" title="Entry - Clear landing page, that will help sell"></a>
+                    <p class="slogan">Your Company slogan here</p>
+                    <!-- Social icons -->
+                    <div class="socials">
+                        <ul>
+                            <li><a href="http://dribbble.com/" target="_blank" title="Dribbble" class="fa fa-dribbble"></a></li>
+                            <li><a href="https://plus.google.com/" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+                            <li><a href="https://twitter.com/" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+            
+<!-- HEADER SOCIAL END --> 
+<!-- SLIDER REGISTER BEGIN -->
+
+            <section id="register_slider">
+                <div class="center">
+                	<!-- Register form -->
+                    <div class="form_register">
+                        <h2>Register for free!</h2>
+                        <form action="javascript:void(0)" class="reg_form" id="register_form">
+                            <div>
+                                <input type="text" name="name" placeholder="Your screenname" data-validate="validate(username)" />
+                                <input type="text" name="email" placeholder="Your email address" data-validate="validate(email)" />
+                                <input type="password" name="password" placeholder="Your password" data-validate="validate(minlength(6))" />
+                                <input type="submit" value="Register NOW" class="btn_big">
+                            </div>   
+                        </form>
+                    </div>
+                    <div class="info_slider_box">
+                        <div id="info_slider">
+                            <div class="slide" id="info1">
+                            	<!-- 1st info slider image change here -->
+                                <img src="./images/slide1.png" width="387" height="239" alt="" />
+                                <span>Completely <b>responsive</b></span>
+                            </div>
+                            <div class="slide" id="info2">
+                            	<!-- 2nd info slider image change here -->
+                                <img src="./images/slide2.png" width="321" height="275" alt="" />
+                                <span><b>Light and neat</b>, so light it can fly away</span>
+                            </div>
+                            <div class="slide" id="info3">
+                            	<!-- 3rd info slider image change here -->
+                                <img src="./images/slide3.png" width="359" height="251" alt="" />
+                                <span><b>3 examples</b> with different targets</span>
+                            </div>
+                        </div>
+                        
+                        <a href="#" id="next" class="fa fa-caret-right"></a>
+                        <a href="#" id="prev" class="fa fa-caret-left"></a>
+                    </div>
+                </div>
+            </section>
+            
+<!-- SLIDER REGISTER END --> 
+<!-- SLIDER IMAGE BEGIN -->
+
+            <section id="image_slider_box">
+                <div class="center">
+                    <div class="image_slider_box">
+                        <div id="image_slider">
+                            <div class="slide" id="image1">
+                            	<!-- 1st images slider image change here -->
+                                <span>Completely <br><b>responsive</b></span>
+                                <img src="./images/slide1.png" width="387" height="239" alt="" />
+                            </div>
+                            <div class="slide" id="image2">
+                            	<!-- 2nd images slider image change here -->
+                                <span><b>Light and neat</b><br>so light it can fly away</span>
+                                <img src="./images/slide2.png" width="321" height="275" alt="" />
+                            </div>
+                            <div class="slide" id="image3">
+                            	<!-- 3rd images slider image change here -->
+                                <span><b>3 examples</b> with<br>different targets</span>
+                                <img src="./images/slide3.png" width="359" height="251" alt="" /> 
+                            </div>
+                        </div>
+                        <div id="pager2" class="pager"></div>
+                    </div>
+                </div>
+            </section>
+            
+<!-- SLIDER IMAGE END -->
+<!-- SLIDER DOWNLOAD BEGIN -->
+
+            <section id="download_slider_box">
+                <div class="center">
+                    <div class="download">
+                        <h2>BEST DEAL, TRY NOW!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget  porta leo sagittis vel.</p>
+                        <a href="javascript:void(0)" class="btn_big">Download</a>
+                    </div>
+                    <div class="download_slider_box">
+                        <div id="download_slider">
+                            <div class="slide" id="download1">
+                            	<!-- 1st download slider image change here -->
+                                <img src="./images/slide1.png" width="387" height="239" alt="" />
+                                <span>Completely <b>responsive</b></span>
+                            </div>
+                            <div class="slide" id="download2">
+                            	<!-- 2nd download slider image change here -->
+                                <img src="./images/slide2.png" width="321" height="275" alt="" />
+                                <span><b>Light and neat</b>, so light it can fly away</span>
+                            </div>
+                            <div class="slide" id="download3">
+                            	<!-- 3rd download slider image change here -->
+                                <img src="./images/slide3.png" width="359" height="251" alt="" />
+                                <span><b>3 examples</b> with different targets</span>
+                            </div>
+                        </div>
+                        <div id="pager3" class="pager"></div>
+                    </div>
+                </div>
+            </section>
+
+<!-- SLIDER DOWNLOAD END -->
+<!-- ABOUT BLOCK BEGIN -->
+
+            <section id="about" class="box">
+                <div class="center">
+                    <h2>Few words about</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. </p>
+                </div>
+            </section>
+
+<!-- ABOUT BLOCK END -->
+<!-- PACKAGES BLOCK BEGIN -->
+
+            <section id="packages" class="box">
+                <div class="center">
+                    <div class="pack_box">
+                    
+                    	<!-- Pack 1-->
+                        <div class="pack">
+                            <div>
+                                <h3>Wood Pack</h3>
+                                <div class="pack_list">
+                                    <ul>
+                                        <li><span class="fa fa-check"></span>Responsible design</li>
+                                        <li class="off"><span class="fa fa-times"></span>3 examples</li>
+                                        <li class="off"><span class="fa fa-times"></span>HTML5 &amp; CSS3</li>
+                                        <li class="off"><span class="fa fa-times"></span>PSD included</li>
+                                        <li class="off"><span class="fa fa-times"></span>Light and clean</li>
+                                        <li class="off"><span class="fa fa-times"></span>Customizible HTML</li>
+                                    </ul>
+                                </div>
+                                <div class="try">
+                                    <p class="price"><span>$</span>9.99</p>
+                                    <a href="javascript:void(0)" class="btn">Try now!</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Pack 2-->
+                        <div class="pack">
+                            <div>
+                                <h3>Iron Pack</h3>
+                                <div class="pack_list">
+                                    <ul>
+                                        <li><span class="fa fa-check"></span>Responsible design</li>
+                                        <li><span class="fa fa-check"></span>3 examples</li>
+                                        <li><span class="fa fa-check"></span>HTML5 &amp; CSS3</li>
+                                        <li class="off"><span class="fa fa-times"></span>PSD included</li>
+                                        <li class="off"><span class="fa fa-times"></span>Light and clean</li>
+                                        <li class="off"><span class="fa fa-times"></span>Customizible HTML</li>
+                                    </ul>
+                                </div>
+                                <div class="try">
+                                    <p class="price"><span>$</span>44.99</p>
+                                    <a href="javascript:void(0)" class="btn">Try now!</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Pack 3-->
+                        <div class="pack">
+                            <div>
+                                <h3>Silver Pack</h3>
+                                <div class="pack_list">
+                                    <ul>
+                                        <li><span class="fa fa-check"></span>Responsible design</li>
+                                        <li><span class="fa fa-check"></span>3 examples</li>
+                                        <li><span class="fa fa-check"></span>HTML5 &amp; CSS3</li>
+                                        <li><span class="fa fa-check"></span>PSD included</li>
+                                        <li><span class="fa fa-check"></span>Light and clean</li>
+                                        <li class="off"><span class="fa fa-times"></span>Customizible HTML</li>
+                                    </ul>
+                                </div>
+                                <div class="try">
+                                    <p class="price"><span>$</span>79.99</p>
+                                    <a href="javascript:void(0)" class="btn">Try now!</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Pack 4-->
+                        <div class="pack">
+                            <div>
+                                <h3>Gold Pack</h3>
+                                <div class="pack_list">
+                                    <ul>
+                                        <li><span class="fa fa-check"></span>Responsible design</li>
+                                        <li><span class="fa fa-check"></span>3 examples</li>
+                                        <li><span class="fa fa-check"></span>HTML5 &amp; CSS3</li>
+                                        <li><span class="fa fa-check"></span>PSD included</li>
+                                        <li><span class="fa fa-check"></span>Light and clean</li>
+                                        <li><span class="fa fa-check"></span>Customizible HTML</li>
+                                    </ul>
+                                </div>
+                                <div class="try">
+                                    <p class="price"><span>$</span>119.99</p>
+                                    <a href="javascript:void(0)" class="btn">Try now!</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!-- PACKAGES BLOCK END -->
+<!-- BENEFITS BLOCK BEGIN -->
+
+            <section id="benefits" class="box">
+                <div class="center">
+                    <h2>Why we ?</h2>
+                    <div class="benefits_box">
+                    
+                    	<!-- Benefit 1-->
+                        <div class="benefit">
+                            <span class="fa fa-desktop"></span>
+                            <h3>Responsible design</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur aditpiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel.</p>
+                        </div>
+                        
+                        <!-- Benefit 2-->
+                        <div class="benefit">
+                            <span>x3</span>
+                            <h3>3 examples</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur aditpiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel.</p>
+                        </div>
+                        
+                        <!-- Benefit 3-->
+                        <div class="benefit">
+                            <span class="fa fa-html5"></span>
+                            <h3>HTML5 &amp; CSS3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur aditpiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel.</p>
+                        </div>
+                        
+                        <!-- Benefit 4-->
+                        <div class="benefit">
+                            <span class="fa fa-file"></span>
+                            <h3>PSD included</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur aditpiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel.</p>
+                        </div>
+                        
+                        <!-- Benefit 5-->
+                        <div class="benefit">
+                            <span class="fa fa-leaf"></span>
+                            <h3>Light and clean</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur aditpiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel.</p>
+                        </div>
+                        
+                        <!-- Benefit 6-->
+                        <div class="benefit">
+                            <span class="fa fa-flask"></span>
+                            <h3>Customizible code</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur aditpiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!-- BENEFITS BLOCK END -->
+<!-- VIDEO BLOCK BEGIN -->
+
+            <section id="video" class="box">
+                <div class="center">
+                    <div class="video_info">
+                        <h2>Motivational video</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                    </div>
+                    <div class="video_box">
+                    
+                    	<!-- Video iframe code here -->
+                      
+                    </div>
+                </div>
+            </section>
+
+<!-- VIDEO BLOCK END -->
+<!-- TABS BLOCK BEGIN -->
+
+            <section id="tabs" class="box">
+                <div class="center">
+                    <div class="tabs">
+                        <ul class="tabNavigation">
+                            <li><a class="" href="#tabs1">Our guarantees</a></li>
+                            <li><a class="" href="#tabs2">Interesting facts</a></li>
+                            <li><a class="" href="#tabs3">Plans</a></li>
+                        </ul>
+                        <div id="tabs1" class="tabs_box">
+                            <img src="./images/guarantees.png" alt="" height="120" width="94" />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            <p>Etiam dictum auctor interdum. </p>
+                            <p>Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. </p>
+                        </div><!--id="tabs1"-->
+                        <div id="tabs2" class="tabs_box">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            <p>Etiam dictum auctor interdum. </p>
+                            <p>Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            <p>Etiam dictum auctor interdum. </p>
+                            <p>Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. </p>
+                        </div><!--id="tabs2"-->
+                        <div id="tabs3" class="tabs_box">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            <p>Etiam dictum auctor interdum. </p>
+                            <p>Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                            <p>Etiam dictum auctor interdum. </p>
+                        </div><!--id="tabs3"-->
+                    </div>
+                </div>
+            </section>
+
+<!-- TABS BLOCK END -->
+<!-- SCREENSHOTS BLOCK BEGIN -->
+
+            <section id="screenshots" class="box">
+                <div class="center">
+                    <h2>Screenshots</h2>
+                    <div class="screenshots_box">
+                    
+                    	<!-- Fancybox slider -->
+                        <div id="screenshots_slider">
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                            <div class="slide">
+                                <a href="./images/screens/01.jpg" data-fancybox-gallery="group" class="gallery_pic"><img src="./images/screens/01_s.jpg" class="image_shadow" width="130" height="130" alt="" /></a>
+                            </div>
+                        </div>
+                        <a href="#" id="prev2" class="fa fa-caret-left"></a>
+                        <a href="#" id="next2" class="fa fa-caret-right"></a>
+                    </div>
+                </div>
+            </section>
+            
+<!-- SCREENSHOTS BLOCK END -->
+<!-- SUBSCRIBE BLOCK BEGIN -->            
+
+            <section id="subscribe" class="box">
+                <div class="center">
+                    <h2>Subscribe</h2>
+                    <div class="subscribe_box">
+                    	<!-- Subscribe form -->
+                        <form action="js/subscribe.php" method="post" id="subscribe_form">
+                            <div>
+                                <input type="text" placeholder="Your email address" id="subscribe_email" data-validate="validate(email)" />
+                                <input type="submit" value="Subscribe" class="btn_grey" id="subscribe_submit" />
+                            </div> 
+                        </form>
+                        <h3>Join our newsletter subscription</h3>
+                        <p>Join our newsletter subscription, be always informed</p>
+                    </div>
+                    <div class="success_message" id="subscribe_success"></div>
+                	<div class="error_message" id="subscribe_error"></div> 
+                </div>
+            </section>
+
+<!-- SUBSCRIBE BLOCK END -->
+<!-- STATISTICS BLOCK BEGIN -->
+
+            <section id="statistics" class="box">
+                <div class="center">
+                    <h2>Our statistics</h2>
+                    <div class="statistics_box">
+                        <div class="statistics_item">
+                            <h6>July</h6>
+                            <div class="percent"><p style="width: 25%"><span>25%</span></p></div>
+                        </div>
+                        <div class="statistics_item">
+                            <h6>August</h6>
+                            <div class="percent"><p style="width: 35%"><span>35%</span></p></div>
+                        </div>
+                        <div class="statistics_item">
+                            <h6>September</h6>
+                            <div class="percent"><p style="width: 50%"><span>50%</span></p></div>
+                        </div>
+                        <div class="statistics_item">
+                            <h6>October</h6>
+                            <div class="percent"><p style="width: 60%"><span>60%</span></p></div>
+                        </div>
+                        <div class="statistics_item">
+                            <h6>November</h6>
+                            <div class="percent"><p style="width: 70%"><span>70%</span></p></div>
+                        </div>
+                        <div class="statistics_item">
+                            <h6>December</h6>
+                            <div class="percent"><p style="width: 100%"><span>100%</span></p></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!-- STATISTICS BLOCK END -->
+<!-- OPINIONS BLOCK BEGIN -->
+
+            <section id="opinions" class="box">
+                <div class="center">
+                    <h2>What people are saying</h2>
+                    <div class="reviews_box">
+                        <div class="reviews_item">
+                            <div class="reviews_text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p>Etiamdictum auctor interdum.</p>
+                                <span class="review_icon fa fa-quote-left"></span>
+                                <span class="review_arrow"></span>
+                            </div>
+                            <div class="review_autor">
+                                <a href="#"><img src="./images/author.jpg" alt="" /></a>
+                                <p>Author 1</p>
+                            </div>
+                        </div>
+                        <div class="reviews_item">
+                            <div class="reviews_text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p>Etiamdictum auctor interdum.</p>
+                                <span class="review_icon fa fa-twitter"></span>
+                                <span class="review_arrow"></span>
+                            </div>
+                            <div class="review_autor">
+                                <a href="#"><img src="./images/author.jpg" alt="" /></a>
+                                <p>Author 2</p>
+                            </div>
+                        </div>
+                        <div class="reviews_item">
+                            <div class="reviews_text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p>Etiamdictum auctor interdum.</p>
+                                <span class="review_icon fa fa-facebook"></span>
+                                <span class="review_arrow"></span>
+                            </div>
+                            <div class="review_autor">
+                                <a href="#"><img src="./images/author.jpg" alt="" /></a>
+                                <p>Author 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!-- OPINIONS BLOCK END -->
+<!-- NEWS BLOCK BEGIN -->
+
+            <section id="news" class="box">
+                <div class="center">
+                    <h2>Latest news
+                        <a href="#" id="next_sm" class="fa fa-caret-right"></a>
+                        <a href="#" id="prev_sm" class="fa fa-caret-left"></a>
+                    </h2>
+                    <div id="news_slider">
+                        <div class="slide">
+                            <div class="news_item">
+                                <img src="./images/news.jpg" class="image_shadow" alt="" />
+                                <h3>New features added, don't miss!</h3>
+                                <h6>11 / 01 / 2013</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel.</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="news_item">
+                                <img src="./images/news.jpg" class="image_shadow" alt="" />
+                                <h3>Good news everyone! Update 1.01</h3>
+                                <h6>10 / 01 / 2013</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel.</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="news_item">
+                                <img src="./images/news.jpg" class="image_shadow" alt="" />
+                                <h3>Marketing Alternatives</h3>
+                                <h6>09 / 01 / 2013</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel.</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <div class="news_item">
+                                <img src="./images/news.jpg" class="image_shadow" alt="" />
+                                <h3>Good news everyone! Update 1.02</h3>
+                                <h6>08 / 01 / 2013</h6>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. Quisque gravida commodo velit, eget porta leo sagittis vel.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+<!-- NEWS BLOCK END -->
+<!-- QUESTIONS BLOCK BEGIN -->
+
+            <section id="questions" class="box">
+                <div class="center">
+                    <h2>Any questions?</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam dictum auctor interdum. Aenean egestas vehicula purus in euismod. </p>
+                    <form action="js/contact.php" method="post" class="questions_form" id="quest_form">
+                        <div class="questions_cell">
+                            <input type="text" id="quest_name" name="name" placeholder="Your name" data-validate="validate(username)" />
+                            <input type="text" id="quest_email" name="email" placeholder="Your email address" data-validate="validate(email)"/>
+                        </div>
+                        <div class="questions_cell">
+                            <textarea cols="40" rows="10" id="quest_message" placeholder="Your question" data-validate="validate(minlength(5))"></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Send question" class="btn_grey" id="quest_form_submit" />
+                        </div>   
+                        
+                        <div class="success_message" id="quest_success"></div>
+						<div class="error_message" id="quest_error"></div>
+                    </form>
+                </div>
+            </section>
+
+<!-- QUESTIONS BLOCK END -->
+<!-- CONTACT US BLOCK BEGIN -->
+
+            <section id="contact_us" class="box">
+                <div class="center">
+                    <h2>Contact us</h2>
+                    <div class="contact_info" itemscope itemtype="http://schema.org/Organization">
+                        <ul>
+                            <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span class="fa fa-map-marker"></span> <span itemprop="streetAddress">Address</span>, <span itemprop="postalCode">Postal code</span>, <span itemprop="addressLocality">City, Country</span></li>
+                            <li itemprop="email"><span class="fa fa-envelope"></span> Your@email.com</li>
+                            <li itemprop="telephone"><span class="fa fa-phone"></span> (234) 789-4356</li>
+                            <li><span class="fa fa-skype"></span> Your_skype</li>
+                        </ul>
+                    </div>
+                    
+
+                    <div class="map" id="map-canvas">
+                    
+                    <!-- Map code here -->
+                    
+                    </div>
+                    
+                </div>
+            </section>
+            
+<!-- CONTACT US BLOCK END -->
+
+            <div class="footerHeight"></div>
+        </div><!--id="wrap"--> 
+     
+
+<!-- FOOTER BLOCK BEGIN -->
+        
+        <footer id="footer">
+            <div class="center">
+            	<!-- Social icons -->
+                <div class="socials">
+                    <ul>
+                    	<li><a href="http://dribbble.com/" target="_blank" title="Dribbble" class="fa fa-dribbble"></a></li>
+                        <li><a href="https://plus.google.com/" target="_blank" title="Google+" class="fa fa-google-plus"></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank" title="Facebook" class="fa fa-facebook"></a></li>
+                        <li><a href="https://twitter.com/" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p>&copy; Copyright 2014 Your Company name.<br>
+						All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        
+<!-- FOOTER BLOCK BEGIN --> 
+      
+    </body>
+</html>
