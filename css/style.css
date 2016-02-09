@@ -376,8 +376,8 @@ input[type=submit] {
  
 .header .logo {
 	background: url(../images/logo.png) no-repeat 0 0; 
-	width: 240px; 
-	height: 92px; 
+	width: 120px; 
+	height: 46px; 
 	float: left; 
 	margin: 0 13px 0 0;
 }
