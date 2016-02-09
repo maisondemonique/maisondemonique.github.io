@@ -369,15 +369,15 @@ input[type=submit] {
 /*---------- HEADER BEGIN ----------*/
 
 .header {
-	background: #e4e4e4;
+	background: #292929;
 	overflow: hidden; 
 	padding: 20px 0 10px;
 }
  
 .header .logo {
 	background: url(../images/logo.png) no-repeat 0 0; 
-	width: 97px; 
-	height: 60px; 
+	width: 240px; 
+	height: 92px; 
 	float: left; 
 	margin: 0 13px 0 0;
 }
