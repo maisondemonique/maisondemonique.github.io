@@ -383,11 +383,11 @@ input[type=submit] {
 }
 
 .header .slogan {
-	width: 130px; 
+	width: 330px; 
 	float: left; 
 	border-left: 1px solid #cdcdcd; 
 	padding-left: 15px; 
-	text-shadow: 0 1px #fff; 
+	text-shadow: 0 0px #fff; 
 	padding-top: 5px;
 }
 
